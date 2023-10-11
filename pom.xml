@@ -59,16 +59,6 @@
   <artifactId>azure-webapp-maven-plugin</artifactId>  
   <version>2.9.0</version>  
   <configuration>
-    <subscriptionId>111111-11111-11111-1111111</subscriptionId>
-    <resourceGroup>spring-boot-xxxxxxxxxx-rg</resourceGroup>
-    <appName>spring-boot-xxxxxxxxxx</appName>
-    <pricingTier>B2</pricingTier>
-    <region>westus</region>
-    <runtime>
-      <os>Linux</os>      
-      <webContainer>Java SE</webContainer>
-      <javaVersion>Java 11</javaVersion>
-    </runtime>
     <deployment>
       <resources>
         <resource>
